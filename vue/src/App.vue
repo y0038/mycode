@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <el-container style="height: 1000px; ">
-      <el-aside  style="background-color:#39465C ;overflow: hidden;min-height: 100vh;width: 270px;">
-        <div style="height: 70px;display: flex;justify-content: center;align-content: center;">
-          <img src="@/assets/logo.png" alt="" >
-          <span style="color: white;margin-left: 5px;justify-content: center;align-content: center;">慢慢做好毕设</span>
+      <el-aside style="background-color:#39465C ;overflow: hidden;min-height: 100vh;width: 270px;">
+        <div style="height: 70px; display: flex; align-items: center; justify-content: center;">
+          <img src="@/assets/logo.png" alt="" style="height: 40px; width: 40px;">
+          <span style="color: white; margin-left: 10px;">慢慢做好毕设</span>
         </div>
         <el-menu>
 
           <el-submenu index="1">
             <template slot="title"><i class="el-icon-user"></i>用户管理</template>
-              <el-menu-item index="1-1">选项1</el-menu-item>
-              <el-menu-item index="1-2">选项2</el-menu-item>
+            <el-menu-item index="1-1">选项1</el-menu-item>
+            <el-menu-item index="1-2">选项2</el-menu-item>
           </el-submenu>
           <el-submenu index="2">
             <template slot="title"><i class="el-icon-menu"></i>信息管理</template>
@@ -36,10 +36,12 @@
         </el-menu>
       </el-aside>
 
-      <el-container >
+      <el-container>
         <el-header style="text-align: right; font-size: 12px;">
-          <img src="@/assets/avtar.jpg" alt="" style="width: 40px;border-radius: 50%;margin-right: 10px;">
-          <span style="color: #4c5a73;font-weight: bold;font-size: 14px;margin-right: 20px;">王小虎</span>
+          <img src="@/assets/avtar.jpg" alt=""
+               style="height: 40px; width: 40px;border-radius: 50%;margin-right: 10px; vertical-align: middle;">
+          <span
+              style="color: #4c5a73;font-weight: bold;font-size: 14px;margin-right: 20px; vertical-align: middle;">王小虎</span>
           <el-dropdown>
             <i class="el-icon-setting" style="margin-left: 10px"></i>
             <el-dropdown-menu slot="dropdown">
