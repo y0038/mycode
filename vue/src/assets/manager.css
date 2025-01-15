@@ -1,0 +1,18 @@
+.el-menu{
+    background-color:#39465C;
+}
+.el-submenu__title{
+    color:white;
+}
+.el-menu-item{
+    color:white;
+}
+.el-menu-item:hover,.el-submenu__title:hover{
+    background-color: rgba(92,113,147,0.24);
+}
+.el-menu-item.is-active{
+    background-color: rgba(92,113,147,0.24);
+}
+.el-header{
+    background-color: white;
+}
